@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
+import LogoS from '../../assets/images/logo-s.jpg'
 import LogoSubtittle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
@@ -8,7 +8,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
     <div  className='nav-bar'>
         <Link className='logo' to="/">
-            <img src ={LogoS} alt="logo"/>
             <img className='sub-logo' src ={LogoSubtittle} alt="slobodan"/>
         </Link>
 <nav>
@@ -16,13 +15,13 @@ const Sidebar = () => (
         <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
     </NavLink>
 
-    <NavLink exact='true' activeclassname="active" tp="">
-        <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
-    </NavLink>
+    <NavLink  to="/about" activeclassname="active" className="about-link">
+          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
 
-    <NavLink exact='true' activeclassname="active" tp="">
-        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
-    </NavLink>
+        <NavLink  activeclassname="active" className="contact-link">
+          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        </NavLink>
 </nav>
 <ul>
     <li>

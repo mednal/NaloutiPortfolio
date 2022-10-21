@@ -10,6 +10,12 @@
             "title":"T-Shop",
             "description":"Shoping  website that i created in collaboration with classmates during an academic project"
         },
+        
+        {
+            "cover":"/portfolioimages/ipact/stage5.png",
+            "title":"courzelo",
+            "description":"an E-Learning website that provides participants with an increase in skills in terms of Soft Skills and Hard Skills through targeted training offered online. It also allows trainers to develop the content of their trainings using advanced teaching and training methodologies."
+        },
         {
             "cover":"/portfolioimages/eskills/3em.png",
             "title":"E-SKILLS",
@@ -20,12 +26,7 @@
             "cover":"/portfolioimages/music71/4em_3.png",
             "title":"71music",
             "description":". MERN Application 71music web application that provides an interface for users to meet  online and do karaoke sessions as they can follow each other also there is a chat zone"
-        },
-    
-        {
-            "cover":"/portfolioimages/ipact/stage5.png",
-            "title":"courzelo",
-            "description":"an E-Learning website that provides participants with an increase in skills in terms of Soft Skills and Hard Skills through targeted training offered online. It also allows trainers to develop the content of their trainings using advanced teaching and training methodologies."
         }
+    
     ]
 }

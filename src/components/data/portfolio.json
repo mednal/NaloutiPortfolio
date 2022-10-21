@@ -1,0 +1,30 @@
+{
+    "portfolio":[
+        {
+            "cover":"/portfolioimages/mouna/2em.png",
+            "title":"Mouna Shop",
+            "description":"Mouna is an online sales platform that allows our clients to purchase, add to wishlist and pay for products Use of Technology: HTML,PHP,Javascript,css,MySql."
+        },
+        {
+            "cover":"/portfolioimages/eskills/3em.png",
+            "title":"E-SKILLS",
+            "description":"a desktop application provide to user to reach an online courses and give job opportunities to skilled tutor to share their experience with the community"
+        },
+        {
+            "cover":"/portfolioimages/angularshop/4em.png",
+            "title":"T-Shop",
+            "description":"Shoping  website that i created in collaboration with classmates during an academic project"
+        },
+        {
+            "cover":"/portfolioimages/music71/4em.png",
+            "title":"71music",
+            "description":". MERN Application 71music web application that provides an interface for users to meet  online and do karaoke sessions as they can follow each other also there is a chat zone"
+        },
+    
+        {
+            "cover":"/portfolioimages/ipact/ipact.png",
+            "title":"courzelo",
+            "description":"an E-Learning website that provides participants with an increase in skills in terms of Soft Skills and Hard Skills through targeted training offered online. It also allows trainers to develop the content of their trainings using advanced teaching and training methodologies."
+        }
+    ]
+}

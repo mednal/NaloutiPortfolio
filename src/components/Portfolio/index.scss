@@ -16,15 +16,17 @@
         gap: 15px;
         flex-wrap: wrap;
         padding-bottom: 100px;
+
     }
 
     .image-box {
         position: relative;
-        flex: 1 1 20%;
+        width: 100%;
+        flex: 1 1 40%;
         height: 400px;
         overflow: hidden;
         border-radius: 10px;
-        max-width: calc(25% - 10px);
+        max-width: calc(50% - 10px);
 
         .portfolio-image {
             position: absolute;
@@ -88,7 +90,7 @@
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, #ffd700, #000);
+            background: linear-gradient(180deg, #4795c9, rgb(173, 173, 173));
             position: absolute;
             left: 0;
             right: 0;
@@ -102,7 +104,7 @@
         }
 
         &:hover:after {
-            opacity: 0.85;
+            opacity: 0.5;
         }
 
         &:hover .content {

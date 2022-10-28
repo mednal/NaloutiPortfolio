@@ -61,6 +61,9 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <a href='cv_Mohamed_Nalouti.pdf' download="cv_Mohamed_Nalouti.pdf" className="flat-buttontwo" >
+              RESUME
+          </a>
         </div>
         <Logo />
       </div>

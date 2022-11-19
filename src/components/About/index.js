@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import React, { Component }  from 'react';
+
 import {
   faAngular,
   faCss3,
@@ -7,7 +9,8 @@ import {
   faJsSquare,
   faNodeJs,
   faReact,
-} from '@fortawesome/free-brands-svg-icons'
+} 
+from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

@@ -3,7 +3,6 @@ import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import LogoS from '../../../assets/images/logo-s.jpg'
 import './index.scss'
-import React, { Component }  from 'react';
 
 const Logo = () => {
   const bgRef = useRef()

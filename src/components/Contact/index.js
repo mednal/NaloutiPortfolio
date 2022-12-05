@@ -49,8 +49,7 @@ const Contact = () => {
           </section>
           <p>
             Hi there please don't hesitate to contact  me if you have any questions,
-            I am interested in freelance opportunities or collaboration. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

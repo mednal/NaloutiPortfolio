@@ -8,7 +8,7 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['m', 'o', 'h', 'a', 'm', 'e', 'd']
+  const nameArray = "mohamed"
   const jobArray = [
     'w',
     'e',
@@ -45,7 +45,7 @@ const Home = () => {
            <img></img>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={nameArray}
+              strArray={nameArray.split("")}
               idx={15}
             />
             <br />

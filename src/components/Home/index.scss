@@ -60,43 +60,45 @@
     }
   
     .flat-button {
-      color: #ffd700;
+      color: #fff348;
       font-size: 13px;
       font-weight: 400;
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
       padding: 10px 18px;
-      border: 1px solid #ffd700;
+      border: 1px solid #5d6d64;
       margin-top: 25px;
       float: left;
       animation: fadeInAnimation 1s 1.8s backwards;
       white-space: nowrap;
   
       &:hover {
-        background: #ffd700;
-        color: #333;
+        background: #000000;
+        color: rgb(255, 251, 251);
+        border: #000000;
       }
     }
 
     .flat-buttontwo {
       margin-left: 10px;
-      color: #ffd700;
+      color: #fff348;
       font-size: 13px;
       font-weight: 400;
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
       padding: 10px 18px;
-      border: 1px solid #ffd700;
+      border: 1px solid #5d6d64;
       margin-top: 25px;
       float: left;
       animation: fadeInAnimation 1s 1.8s backwards;
       white-space: nowrap;
   
       &:hover {
-        background: #ffd700;
-        color: #333;
+        background: #000000;
+        color: rgb(255, 255, 255);
+        border: #333;
       }
     }
   }

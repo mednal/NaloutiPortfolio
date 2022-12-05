@@ -29,7 +29,7 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={"aboutme".split("")}
               idx={15}
             />
           </h1>
@@ -39,8 +39,7 @@ const About = () => {
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Currently looking for an end of study internship.
           </p>
          
         </div>

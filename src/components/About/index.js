@@ -34,12 +34,10 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious full stack developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          I am 3rd year engineering student I worked with different development framework like NodeJs,Angular,ReactJs and SpringBoot          
           </p>
           <p align="LEFT">
-            Currently looking for an end of study internship.
+            Currently I'm looking for an end of study internship.
           </p>
          
         </div>
@@ -67,7 +65,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="triangle-skew-spin" />
     </>
   )
 }

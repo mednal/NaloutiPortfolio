@@ -98,15 +98,15 @@ const Contact = () => {
           <span>mohamed.nalouti@esprit.tn</span>
         </div>
         <div className="map-wrap">
-          <MapContainer  center={[36.7381766559295, 10.302658744740253]} zoom={13}>
+          <MapContainer  center={[36.73951713970948, 10.316502746769975]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[36.7381766559295, 10.302658744740253]}>
+            <Marker position={[36.73951713970948, 10.316502746769975]}>
               <Popup>Nalouti is here</Popup>
             </Marker>
           </MapContainer>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-rotate" />
     </>
   )
 }

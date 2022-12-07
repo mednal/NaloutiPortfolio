@@ -59,14 +59,14 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          <a href='cv_Mohamed_Nalouti.pdf' download="cv_Mohamed_Nalouti.pdf" className="flat-buttontwo" >
+          <a href='cv_Mohamed_Nalouti.pdf' download="cv_Mohamed_Nalouti.pdf" className="flat-button" >
               RESUME
           </a>
         </div>
         <Logo />
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="semi-circle-spin" />
     </>
   )
 }

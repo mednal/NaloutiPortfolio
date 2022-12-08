@@ -4,27 +4,13 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import './index.scss'
+import Typewriter from 'typewriter-effect';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = "mohamed"
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+
 
   useEffect(() => {
      setTimeout(() => {
@@ -41,19 +27,20 @@ const Home = () => {
             <span className={`${letterClass} _12`}>i,</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span> 
-           <img></img>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={nameArray.split("")}
-              idx={15}
-            />
-            <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={22}
-            />
+            <span className={`${letterClass} _14`}>'m &nbsp;</span>  
+            <span className={`${letterClass} _14`}> 
+            <Typewriter 
+   options={{
+    strings: ['mohamed', 'web Developer','software enginner'],
+    autoStart: true,
+    loop: true,
+    pauseFor:1000
+  }}
+/>
+            </span>  
+          
+   
+  
           </h1>
           <h2>Full Stack Developer</h2>
           <Link to="/contact" className="flat-button">
